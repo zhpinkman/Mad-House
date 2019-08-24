@@ -123,6 +123,33 @@ AP_TA_EXAM/fast:
 	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/build
 .PHONY : AP_TA_EXAM/fast
 
+Input_handler/Input_handler.o: Input_handler/Input_handler.cpp.o
+
+.PHONY : Input_handler/Input_handler.o
+
+# target to build an object file
+Input_handler/Input_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Input_handler/Input_handler.cpp.o
+.PHONY : Input_handler/Input_handler.cpp.o
+
+Input_handler/Input_handler.i: Input_handler/Input_handler.cpp.i
+
+.PHONY : Input_handler/Input_handler.i
+
+# target to preprocess a source file
+Input_handler/Input_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Input_handler/Input_handler.cpp.i
+.PHONY : Input_handler/Input_handler.cpp.i
+
+Input_handler/Input_handler.s: Input_handler/Input_handler.cpp.s
+
+.PHONY : Input_handler/Input_handler.s
+
+# target to generate assembly for a file
+Input_handler/Input_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Input_handler/Input_handler.cpp.s
+.PHONY : Input_handler/Input_handler.cpp.s
+
 Kids/Angry_kid.o: Kids/Angry_kid.cpp.o
 
 .PHONY : Kids/Angry_kid.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AP_TA_EXAM"
 	@echo "... edit_cache"
+	@echo "... Input_handler/Input_handler.o"
+	@echo "... Input_handler/Input_handler.i"
+	@echo "... Input_handler/Input_handler.s"
 	@echo "... Kids/Angry_kid.o"
 	@echo "... Kids/Angry_kid.i"
 	@echo "... Kids/Angry_kid.s"
