@@ -96,3 +96,17 @@ void Kid::generate_impact_on_wall(Impact_type impact_type) {
         vy = vxy;
     }
 }
+
+bool Kid::check_break_condition(Kid *other_kid) {
+    if ( radius + other_kid->get_radius() > BREAK_SUM_LIMIT )
+        if ( radius > BREAK_DEATH_LIMIT)
+            return true;
+        else
+            die();
+    return false;
+}
+
+
+void Kid::check_peaceful_unity(int num_of_others) {
+    courage += num_of_others * PEACEFUL_UNION_COEFFICIENT;
+}

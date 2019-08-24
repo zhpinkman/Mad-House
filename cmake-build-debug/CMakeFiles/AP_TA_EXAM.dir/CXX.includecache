@@ -6,7 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/main.cpp
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp
+Angry_kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.h
+Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp
+Coward_kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.h
+Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.cpp
 iostream
 -
+cmath
+-
+Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+../Types/Kid_type.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
+../Types/Impact_type.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp
+Peaceful_kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h
+Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
 

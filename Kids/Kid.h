@@ -14,6 +14,9 @@
 #define ANGRY "angry"
 #define PEACEFUL "Peaceful"
 #define COWARD "Coward"
+#define BREAK_SUM_LIMIT 20
+#define BREAK_DEATH_LIMIT 6
+#define PEACEFUL_UNION_COEFFICIENT 5
 
 class Kid {
 protected:
@@ -53,6 +56,8 @@ public:
     void set_vy(double _vy) { vy = _vy; }
 
     void die() { is_dead = true; }
+    bool check_break_condition(Kid* other_kid);
+    void check_peaceful_unity(int num_of_others);
 
 };
 #endif //AP_TA_EXAM_KID_H
