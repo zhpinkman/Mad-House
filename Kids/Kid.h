@@ -25,8 +25,10 @@ protected:
     double radius;
     int anger, charisma, courage;
     bool is_dead;
+    virtual void establish_boundaries();
+
 public:
-    Kid(int _id, Kid_type _type, bool _fragile, double posx, double posy, double vx, double vy, double radius, int anger, int charisma, int courage);
+    Kid(int _id, Kid_type _type, bool _fragile, double _posx, double _posy, double _vx, double _vy, double _radius, int _anger, int _charisma, int _courage);
     int get_id() { return id; }
     Kid_type get_type() { return type; }
     bool is_fragile() { return fragile; }

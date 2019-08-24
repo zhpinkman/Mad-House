@@ -83,19 +83,64 @@ CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.cpp -o CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.s
 
+CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o: CMakeFiles/AP_TA_EXAM.dir/flags.make
+CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o: ../Kids/Angry_kid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o -c /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp > CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.i
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp -o CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.s
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o: CMakeFiles/AP_TA_EXAM.dir/flags.make
+CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o: ../Kids/Peaceful_kid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o -c /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp > CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.i
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp -o CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o: CMakeFiles/AP_TA_EXAM.dir/flags.make
+CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o: ../Kids/Coward_kid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o -c /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp > CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.i
+
+CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp -o CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.s
+
 # Object files for target AP_TA_EXAM
 AP_TA_EXAM_OBJECTS = \
 "CMakeFiles/AP_TA_EXAM.dir/main.cpp.o" \
-"CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.o"
+"CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.o" \
+"CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o" \
+"CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o" \
+"CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o"
 
 # External object files for target AP_TA_EXAM
 AP_TA_EXAM_EXTERNAL_OBJECTS =
 
 AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/main.cpp.o
 AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.o
+AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o
+AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o
+AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o
 AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/build.make
 AP_TA_EXAM: CMakeFiles/AP_TA_EXAM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AP_TA_EXAM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable AP_TA_EXAM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AP_TA_EXAM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

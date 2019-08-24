@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp" "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o"
+  "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp" "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o"
   "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.cpp" "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.o"
+  "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp" "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o"
   "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/main.cpp" "/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/CMakeFiles/AP_TA_EXAM.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -123,6 +123,60 @@ AP_TA_EXAM/fast:
 	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/build
 .PHONY : AP_TA_EXAM/fast
 
+Kids/Angry_kid.o: Kids/Angry_kid.cpp.o
+
+.PHONY : Kids/Angry_kid.o
+
+# target to build an object file
+Kids/Angry_kid.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.o
+.PHONY : Kids/Angry_kid.cpp.o
+
+Kids/Angry_kid.i: Kids/Angry_kid.cpp.i
+
+.PHONY : Kids/Angry_kid.i
+
+# target to preprocess a source file
+Kids/Angry_kid.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.i
+.PHONY : Kids/Angry_kid.cpp.i
+
+Kids/Angry_kid.s: Kids/Angry_kid.cpp.s
+
+.PHONY : Kids/Angry_kid.s
+
+# target to generate assembly for a file
+Kids/Angry_kid.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Angry_kid.cpp.s
+.PHONY : Kids/Angry_kid.cpp.s
+
+Kids/Coward_kid.o: Kids/Coward_kid.cpp.o
+
+.PHONY : Kids/Coward_kid.o
+
+# target to build an object file
+Kids/Coward_kid.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o
+.PHONY : Kids/Coward_kid.cpp.o
+
+Kids/Coward_kid.i: Kids/Coward_kid.cpp.i
+
+.PHONY : Kids/Coward_kid.i
+
+# target to preprocess a source file
+Kids/Coward_kid.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.i
+.PHONY : Kids/Coward_kid.cpp.i
+
+Kids/Coward_kid.s: Kids/Coward_kid.cpp.s
+
+.PHONY : Kids/Coward_kid.s
+
+# target to generate assembly for a file
+Kids/Coward_kid.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.s
+.PHONY : Kids/Coward_kid.cpp.s
+
 Kids/Kid.o: Kids/Kid.cpp.o
 
 .PHONY : Kids/Kid.o
@@ -149,6 +203,33 @@ Kids/Kid.s: Kids/Kid.cpp.s
 Kids/Kid.cpp.s:
 	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.s
 .PHONY : Kids/Kid.cpp.s
+
+Kids/Peaceful_kid.o: Kids/Peaceful_kid.cpp.o
+
+.PHONY : Kids/Peaceful_kid.o
+
+# target to build an object file
+Kids/Peaceful_kid.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.o
+.PHONY : Kids/Peaceful_kid.cpp.o
+
+Kids/Peaceful_kid.i: Kids/Peaceful_kid.cpp.i
+
+.PHONY : Kids/Peaceful_kid.i
+
+# target to preprocess a source file
+Kids/Peaceful_kid.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.i
+.PHONY : Kids/Peaceful_kid.cpp.i
+
+Kids/Peaceful_kid.s: Kids/Peaceful_kid.cpp.s
+
+.PHONY : Kids/Peaceful_kid.s
+
+# target to generate assembly for a file
+Kids/Peaceful_kid.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s
+.PHONY : Kids/Peaceful_kid.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +267,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AP_TA_EXAM"
 	@echo "... edit_cache"
+	@echo "... Kids/Angry_kid.o"
+	@echo "... Kids/Angry_kid.i"
+	@echo "... Kids/Angry_kid.s"
+	@echo "... Kids/Coward_kid.o"
+	@echo "... Kids/Coward_kid.i"
+	@echo "... Kids/Coward_kid.s"
 	@echo "... Kids/Kid.o"
 	@echo "... Kids/Kid.i"
 	@echo "... Kids/Kid.s"
+	@echo "... Kids/Peaceful_kid.o"
+	@echo "... Kids/Peaceful_kid.i"
+	@echo "... Kids/Peaceful_kid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

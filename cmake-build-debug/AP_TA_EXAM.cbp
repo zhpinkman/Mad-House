@@ -84,10 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.cpp">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Angry_kid.h">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.cpp">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Coward_kid.h">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.cpp">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h">
