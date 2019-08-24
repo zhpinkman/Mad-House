@@ -41,8 +41,8 @@ public:
     void print_kid_situation();
     void move(int time_step);
     void change_speed_by_others_impact(Kid* other_kid);
-    int get_next_state_posx();
-    int get_next_state_posy();
+    int get_next_state_posx(int time_step);
+    int get_next_state_posy(int time_step);
     bool has_impact_on_other(Kid* other_kid);
     void generate_impact_on_wall(Impact_type impact_type);
     void check_death();

@@ -55,6 +55,19 @@ void Kid::change_speed_by_others_impact(Kid *other_kid) {
     vy = first_expression * vy + second_expression * other_kid->get_vy();
 }
 
+int Kid::get_next_state_posx(int time_step) {
+    return posx + vx * time_step;
+}
+
+int Kid::get_next_state_posy(int time_step) {
+    return posy + vy * time_step;
+}
+
+bool Kid::has_impact_on_other(Kid *other_kid) {
+    double kids_distance = sqrt( pow(this->posx - other_kid->get_posx(), 2) + pow(this->posy - other_kid->get_posy(), 2) );
+    double kids_radiuses_merged = radius + other_kid->get_radius();
+    return kids_distance <= kids_radiuses_merged;
+}
 void Kid::check_death(){
     if ( radius <= MINIMUM_RADIUS || anger >= MAXIMUM_ANGER)
         is_dead = true;
