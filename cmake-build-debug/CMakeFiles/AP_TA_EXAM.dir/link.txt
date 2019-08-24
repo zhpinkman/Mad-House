@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AP_TA_EXAM.dir/main.cpp.o CMakeFiles/AP_TA_EXAM.dir/Kids/Kid.cpp.o  -o AP_TA_EXAM 
