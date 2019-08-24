@@ -72,3 +72,27 @@ void Kid::check_death(){
     if ( radius <= MINIMUM_RADIUS || anger >= MAXIMUM_ANGER)
         is_dead = true;
 }
+
+void Kid::generate_impact_on_wall(Impact_type impact_type) {
+    double vxy = sqrt((pow(vx, 2) + pow(vy, 2))/2);
+    if (impact_type == right || impact_type == left)
+        vx = -vx;
+    else if (impact_type == top || impact_type == bottom)
+        vy = -vy;
+    else if (impact_type == top_left){
+        vx = vxy;
+        vy = -vxy;
+    }
+    else if (impact_type == top_right){
+        vx = -vxy;
+        vy = -vxy;
+    }
+    else if (impact_type == right_bottom){
+        vx = -vxy;
+        vy = vxy;
+    }
+    else if(impact_type == left_bottom){
+        vx = vxy;
+        vy = vxy;
+    }
+}

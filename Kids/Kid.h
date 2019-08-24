@@ -25,8 +25,8 @@ protected:
     double radius;
     int anger, charisma, courage;
     bool is_dead;
-    virtual void establish_boundaries();
-
+    virtual void establish_boundaries() {}
+    virtual void hit(Kid* other_kid, Kid* some_kid) {}
 public:
     Kid(int _id, Kid_type _type, bool _fragile, double _posx, double _posy, double _vx, double _vy, double _radius, int _anger, int _charisma, int _courage);
     int get_id() { return id; }
@@ -49,6 +49,10 @@ public:
     void generate_impact_on_wall(Impact_type impact_type);
     void check_death();
 
+    void set_vx(double _vx) { vx = _vx; }
+    void set_vy(double _vy) { vy = _vy; }
+
+    void die() { is_dead = true; }
 
 };
 #endif //AP_TA_EXAM_KID_H
