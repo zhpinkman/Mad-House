@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Input_handler/Input_handler.h
+iostream
+-
+vector
+-
+../Kids/Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
+
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
 ../Types/Kid_type.h
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
 ../Types/Hit_type.h
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Hit_type.h
-
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.cpp
-Mad_house.h
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.h
 
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.h
 vector
@@ -45,4 +49,10 @@ algorithm
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Hit_type.h
 
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
+
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/main.cpp
+Input_handler/Input_handler.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Input_handler/Input_handler.h
+Mad_house/Mad_house.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.h
 

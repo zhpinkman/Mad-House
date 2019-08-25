@@ -18,9 +18,9 @@
 
 class Input_handler{
 protected:
-    std::vector<Kid*> kids;
+    std::vector<Kid*>* kids;
 public:
-    std::vector<Kid*> get_kids() { return kids; }
+    std::vector<Kid*>* get_kids() { return kids; }
     void read_kids_from_input();
 };
 

@@ -64,7 +64,7 @@ public:
     bool operator<(const Kid* other_kid);
     bool operator!=(const Kid* other_kid);
 
-    virtual void hit(Kid* other_kid, Kid* some_kid) {}
+    virtual void hit(Kid* other_kid, Kid* updated_other_kid) {}
     bool is_dead() { return dead; }
     Kid* make_copy() { return new Kid(*this); }
     void set_radius(double _radius) { radius = _radius; }

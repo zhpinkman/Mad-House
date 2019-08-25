@@ -19,7 +19,6 @@ Map::Map(const char *file_address){
         std::cerr << "Unable to open file";
     }
     std::reverse(map_data.begin(), map_data.end());
-    std::cout << "testing" << std::endl;
 }
 
 Hit_type Map::generate_hit_type(double posx, double posy, double radius){
