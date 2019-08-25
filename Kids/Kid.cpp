@@ -36,8 +36,8 @@ void Kid::print_kid_situation() {
             type_string = PEACEFUL;
             break;
     }
-    std::cout << id << ", " << type_string << ", " <<  posx << ", " << posy << ", " << radius << ", " << anger << ", " <<
-    charisma << ", " << courage << std::endl;
+    std::cout << id << ", " << type_string << ", " <<  set_precision(posx, PRECISION) << ", " << set_precision(posy, PRECISION) << ", " <<
+    set_precision(radius, PRECISION) << ", " << anger << ", " << charisma << ", " << courage << std::endl;
 }
 
 void Kid::move(int time_step) {
@@ -117,4 +117,9 @@ bool Kid::operator<(const Kid* other_kid){
 
 bool Kid::operator!=(const Kid *other_kid) {
     return this->get_id() != other_kid->get_id();
+}
+
+double set_precision(double number, int precision)
+{
+    return floor(pow(10,precision)*number)/pow(10,precision);
 }

@@ -17,6 +17,7 @@
 #define BREAK_SUM_LIMIT 20
 #define BREAK_DEATH_LIMIT 6
 #define PEACEFUL_UNION_COEFFICIENT 5
+#define PRECISION 1
 
 class Kid {
 protected:
@@ -29,6 +30,7 @@ protected:
     int anger, charisma, courage;
     bool dead;
     virtual void establish_boundaries() {}
+    double set_precision(double number, int precision);
 
 public:
     Kid(int _id, Kid_type _type, bool _fragile, double _posx, double _posy, double _vx, double _vy, double _radius, int _anger, int _charisma, int _courage);
