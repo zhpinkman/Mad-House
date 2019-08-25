@@ -258,6 +258,33 @@ Kids/Peaceful_kid.cpp.s:
 	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s
 .PHONY : Kids/Peaceful_kid.cpp.s
 
+Map_handler/Map_handler.o: Map_handler/Map_handler.cpp.o
+
+.PHONY : Map_handler/Map_handler.o
+
+# target to build an object file
+Map_handler/Map_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Map_handler/Map_handler.cpp.o
+.PHONY : Map_handler/Map_handler.cpp.o
+
+Map_handler/Map_handler.i: Map_handler/Map_handler.cpp.i
+
+.PHONY : Map_handler/Map_handler.i
+
+# target to preprocess a source file
+Map_handler/Map_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Map_handler/Map_handler.cpp.i
+.PHONY : Map_handler/Map_handler.cpp.i
+
+Map_handler/Map_handler.s: Map_handler/Map_handler.cpp.s
+
+.PHONY : Map_handler/Map_handler.s
+
+# target to generate assembly for a file
+Map_handler/Map_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Map_handler/Map_handler.cpp.s
+.PHONY : Map_handler/Map_handler.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -309,6 +336,9 @@ help:
 	@echo "... Kids/Peaceful_kid.o"
 	@echo "... Kids/Peaceful_kid.i"
 	@echo "... Kids/Peaceful_kid.s"
+	@echo "... Map_handler/Map_handler.o"
+	@echo "... Map_handler/Map_handler.i"
+	@echo "... Map_handler/Map_handler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

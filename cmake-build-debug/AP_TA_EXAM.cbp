@@ -114,6 +114,12 @@
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.cpp">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.h">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
