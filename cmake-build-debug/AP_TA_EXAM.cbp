@@ -28,7 +28,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="AP_TA_EXAM">
-				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/AP_TA_EXAM" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/mad house" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,7 +51,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="AP_TA_EXAM/fast">
-				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/AP_TA_EXAM" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/mad house" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -114,13 +114,19 @@
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.cpp">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Mad_house/Mad_house.h">
+			<Option target="AP_TA_EXAM"/>
+		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.cpp">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
-		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h">
+		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Hit_type.h">
 			<Option target="AP_TA_EXAM"/>
 		</Unit>
 		<Unit filename="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h">

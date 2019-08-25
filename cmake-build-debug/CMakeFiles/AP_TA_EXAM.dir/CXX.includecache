@@ -6,51 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Input_handler/Input_handler.h
-iostream
--
-vector
--
-../Kids/Kid.h
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
-
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
 ../Types/Kid_type.h
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
-../Types/Impact_type.h
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h
+../Types/Hit_type.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Hit_type.h
 
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.cpp
-cmath
--
-Map_handler.h
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.cpp
+Peaceful_kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h
 
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Map_handler/Map_handler.h
-vector
--
-string
--
-fstream
--
-iostream
--
-cstdlib
--
-algorithm
--
-../Kids/Kid.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Peaceful_kid.h
+Kid.h
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Kids/Kid.h
 
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Impact_type.h
+/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Hit_type.h
 
 /home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Types/Kid_type.h
-
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/main.cpp
-iostream
--
-cmath
--
-Input_handler/Input_handler.h
-/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/Input_handler/Input_handler.h
 

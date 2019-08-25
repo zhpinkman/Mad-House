@@ -6,7 +6,7 @@
 #define AP_TA_EXAM_KID_H
 
 #include "../Types/Kid_type.h"
-#include "../Types/Impact_type.h"
+#include "../Types/Hit_type.h"
 
 #define MAXIMUM_ANGER 100
 #define MINIMUM_RADIUS 0
@@ -27,12 +27,12 @@ protected:
     double vx, vy;
     double radius;
     int anger, charisma, courage;
-    bool is_dead;
+    bool dead;
     virtual void establish_boundaries() {}
-    virtual void hit(Kid* other_kid, Kid* some_kid) {}
+
 public:
     Kid(int _id, Kid_type _type, bool _fragile, double _posx, double _posy, double _vx, double _vy, double _radius, int _anger, int _charisma, int _courage);
-    int get_id() { return id; }
+    int get_id() const { return id; }
     Kid_type get_type() { return type; }
     bool is_fragile() { return fragile; }
     double get_posx() { return posx; }
@@ -49,15 +49,23 @@ public:
     int get_next_state_posx(int time_step);
     int get_next_state_posy(int time_step);
     bool has_impact_on_other(Kid* other_kid);
-    void generate_impact_on_wall(Impact_type impact_type);
+    void hit_to_wall(Hit_type impact_type);
     void check_death();
 
     void set_vx(double _vx) { vx = _vx; }
     void set_vy(double _vy) { vy = _vy; }
 
-    void die() { is_dead = true; }
+    void die() { dead = true; }
     bool check_break_condition(Kid* other_kid);
     void check_peaceful_unity(int num_of_others);
 
+    bool operator<(const Kid* other_kid);
+    bool operator!=(const Kid* other_kid);
+
+    virtual void hit(Kid* other_kid, Kid* some_kid) {}
+    bool is_dead() { return dead; }
+    Kid* make_copy() { return new Kid(*this); }
+    void set_radius(double _radius) { radius = _radius; }
+    void set_id(int _id) { id = _id; }
 };
 #endif //AP_TA_EXAM_KID_H

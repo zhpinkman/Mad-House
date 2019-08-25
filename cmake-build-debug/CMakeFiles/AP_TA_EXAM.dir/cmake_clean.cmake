@@ -6,8 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/AP_TA_EXAM.dir/Kids/Coward_kid.cpp.o"
   "CMakeFiles/AP_TA_EXAM.dir/Input_handler/Input_handler.cpp.o"
   "CMakeFiles/AP_TA_EXAM.dir/Map_handler/Map_handler.cpp.o"
-  "AP_TA_EXAM.pdb"
-  "AP_TA_EXAM"
+  "CMakeFiles/AP_TA_EXAM.dir/Mad_house/Mad_house.cpp.o"
+  "mad house.pdb"
+  "mad house"
 )
 
 # Per-language clean rules from dependency scanning.

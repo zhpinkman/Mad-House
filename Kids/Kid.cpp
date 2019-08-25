@@ -20,7 +20,7 @@ Kid::Kid(int _id, Kid_type _type, bool _fragile, double _posx, double _posy, dou
     anger = _anger;
     charisma = _charisma;
     courage = _courage;
-    is_dead = false;
+    dead = false;
 }
 
 void Kid::print_kid_situation() {
@@ -70,10 +70,10 @@ bool Kid::has_impact_on_other(Kid *other_kid) {
 }
 void Kid::check_death(){
     if ( radius <= MINIMUM_RADIUS || anger >= MAXIMUM_ANGER)
-        is_dead = true;
+        dead = true;
 }
 
-void Kid::generate_impact_on_wall(Impact_type impact_type) {
+void Kid::hit_to_wall(Hit_type impact_type){
     double vxy = sqrt((pow(vx, 2) + pow(vy, 2))/2);
     if (impact_type == right || impact_type == left)
         vx = -vx;
@@ -109,4 +109,12 @@ bool Kid::check_break_condition(Kid *other_kid) {
 
 void Kid::check_peaceful_unity(int num_of_others) {
     courage += num_of_others * PEACEFUL_UNION_COEFFICIENT;
+}
+
+bool Kid::operator<(const Kid* other_kid){
+    return this->get_id() < other_kid->get_id();
+}
+
+bool Kid::operator!=(const Kid *other_kid) {
+    return this->get_id() != other_kid->get_id();
 }

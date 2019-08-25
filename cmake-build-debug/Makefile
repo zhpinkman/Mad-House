@@ -258,6 +258,33 @@ Kids/Peaceful_kid.cpp.s:
 	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Kids/Peaceful_kid.cpp.s
 .PHONY : Kids/Peaceful_kid.cpp.s
 
+Mad_house/Mad_house.o: Mad_house/Mad_house.cpp.o
+
+.PHONY : Mad_house/Mad_house.o
+
+# target to build an object file
+Mad_house/Mad_house.cpp.o:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Mad_house/Mad_house.cpp.o
+.PHONY : Mad_house/Mad_house.cpp.o
+
+Mad_house/Mad_house.i: Mad_house/Mad_house.cpp.i
+
+.PHONY : Mad_house/Mad_house.i
+
+# target to preprocess a source file
+Mad_house/Mad_house.cpp.i:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Mad_house/Mad_house.cpp.i
+.PHONY : Mad_house/Mad_house.cpp.i
+
+Mad_house/Mad_house.s: Mad_house/Mad_house.cpp.s
+
+.PHONY : Mad_house/Mad_house.s
+
+# target to generate assembly for a file
+Mad_house/Mad_house.cpp.s:
+	$(MAKE) -f CMakeFiles/AP_TA_EXAM.dir/build.make CMakeFiles/AP_TA_EXAM.dir/Mad_house/Mad_house.cpp.s
+.PHONY : Mad_house/Mad_house.cpp.s
+
 Map_handler/Map_handler.o: Map_handler/Map_handler.cpp.o
 
 .PHONY : Map_handler/Map_handler.o
@@ -336,6 +363,9 @@ help:
 	@echo "... Kids/Peaceful_kid.o"
 	@echo "... Kids/Peaceful_kid.i"
 	@echo "... Kids/Peaceful_kid.s"
+	@echo "... Mad_house/Mad_house.o"
+	@echo "... Mad_house/Mad_house.i"
+	@echo "... Mad_house/Mad_house.s"
 	@echo "... Map_handler/Map_handler.o"
 	@echo "... Map_handler/Map_handler.i"
 	@echo "... Map_handler/Map_handler.s"
