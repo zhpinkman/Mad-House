@@ -48,6 +48,8 @@ CMakeFiles/AP_TA_EXAM.dir/Map_handler/Map_handler.cpp.o: ../Types/Kid_type.h
 
 CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Input_handler/Input_handler.h
 CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Kids/Kid.h
+CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Mad_house/Mad_house.h
+CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Map_handler/Map_handler.h
 CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Types/Hit_type.h
 CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../Types/Kid_type.h
 CMakeFiles/AP_TA_EXAM.dir/main.cpp.o: ../main.cpp

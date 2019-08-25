@@ -28,7 +28,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="AP_TA_EXAM">
-				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/mad house" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/simulation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,7 +51,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="AP_TA_EXAM/fast">
-				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/mad house" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug/simulation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/zhivar/Documents/university/AP_TA/AP_TA_EXAM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>

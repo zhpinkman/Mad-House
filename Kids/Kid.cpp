@@ -119,7 +119,7 @@ bool Kid::operator!=(const Kid *other_kid) {
     return this->get_id() != other_kid->get_id();
 }
 
-double set_precision(double number, int precision)
+double Kid::set_precision(double number, int precision)
 {
     return floor(pow(10,precision)*number)/pow(10,precision);
 }
