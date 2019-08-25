@@ -1,6 +1,6 @@
 #include "Input_handler/Input_handler.h"
 #include "Mad_house/Mad_house.h"
-#define MAP_ADDRESS "../map.dat"
+#define MAP_ADDRESS "map.dat"
 
 
 

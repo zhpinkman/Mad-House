@@ -20,6 +20,8 @@
 #define BREAKING_DEGREE 60
 #define PI 3.14159265
 #define UNITY_FRIENDS_COUNT_LIMIT 2
+#define STRAIGHT_ANGLE 180
+
 
 class Mad_house {
 protected:

@@ -98,7 +98,7 @@ void Kid::hit_to_wall(Hit_type impact_type){
 }
 
 bool Kid::check_break_condition(Kid *other_kid) {
-    if ( radius + other_kid->get_radius() > BREAK_SUM_LIMIT )
+    if (fragile && ( radius + other_kid->get_radius() > BREAK_SUM_LIMIT ))
         if ( radius > BREAK_DEATH_LIMIT)
             return true;
         else

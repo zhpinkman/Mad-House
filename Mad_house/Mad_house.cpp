@@ -57,6 +57,7 @@ void Mad_house::simulate_walls_hits() {
 void Mad_house::simulate_kids_hits() {
     std::vector<std::vector<Kid*> > all_hits = find_kids_hits();
 
+
     simulate_all_kids_hits(all_hits);
     check_fragility(all_hits);
     check_kids_union(all_hits);
@@ -171,8 +172,8 @@ void Mad_house::simulate_kids_move() {
 void Mad_house::break_to_six(Kid *kid) {
     double v_before_breaking = sqrt(pow(kid->get_vx(), 2) + pow(kid->get_vy(), 2));
     double v_after_breaking = v_before_breaking * BREAK_SPEED_CONDITION;
-    double first_coefficient = cos(BREAKING_DEGREE * PI/180);
-    double second_coefficient = sin(BREAKING_DEGREE * PI/180);
+    double first_coefficient = cos(BREAKING_DEGREE * PI/STRAIGHT_ANGLE);
+    double second_coefficient = sin(BREAKING_DEGREE * PI/STRAIGHT_ANGLE);
     const std::pair<double,double> coefficients[6] = {std::make_pair(1, 0),
         std::make_pair(-1, 0),
         std::make_pair(first_coefficient, second_coefficient),
